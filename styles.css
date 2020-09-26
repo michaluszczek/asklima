@@ -1,0 +1,68 @@
+body {
+    background-image: url("VpsTGN.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+h1 {
+    font: 55px Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+    font-family: fantasy;
+    color: black;
+    margin: auto;
+}
+.header {
+    font: 28px Arial, sans-serif;   
+    text-align: center;    
+}
+
+#two_guys {
+
+    width:300px;
+    height: auto;
+    margin-right:0;
+    margin-left: auto;
+    display:block;       
+}
+.container {
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;    
+}
+.telephone {
+    display: flex
+}
+p {
+    font-size: 22px;
+    text-align: center;
+}
+a {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    text-align: center;
+}
+
+#contact {
+    width:30px;
+    height: auto;
+    margin-right:auto;
+    margin-left: 0;
+    display:block;
+    align-self: center;       
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list {
+    font-size: 22px;
+}
