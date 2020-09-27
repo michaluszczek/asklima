@@ -19,19 +19,94 @@ h1 {
     font: 28px Arial, sans-serif;   
     text-align: center;    
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+}
 
-#two_guys {
+#logo {
+    width:150px;
+    height: auto;    
+    display:block;
+    margin: auto;
+}
 
-    width:300px;
+#tel_button {
+    background-color: goldenrod;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;    
+    letter-spacing: 0.75px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+    margin: auto;
+    margin-top: 10%;
+}
+
+#mail_button {
+    background-color: goldenrod;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    font: 150 1.0em "Lato";
+    letter-spacing: 0.75px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+    margin: auto;
+    margin-top: 10%;
+}
+
+#instalacje {
+    background-color: goldenrod;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    font: 150 1.5em "Lato";
+    letter-spacing: 0.75px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+    margin: auto;
+    margin-top: 50%;
+}
+
+#koniec {
+    width:200px;
+    height: auto;    
+    display:block;
+    margin: auto;   
+}
+
+#oferta {
+    width:200px;
     height: auto;
     margin-right:0;
     margin-left: auto;
+    margin-top: 75%;
+    display:block;   
+}
+
+#two_guys {
+
+    width:200px;
+    height: auto;
+    margin-right:0;
+    margin-left: auto;
+    margin-top: 50%;
     display:block;       
+}
+
+#van {
+    width: 200px;
+    height: auto;
+    margin-right:0;
+    margin-left: auto;
+    margin-top: 50%;
+    display:block;
 }
 .container {
     display: inline-flex;
-    margin-left: 20%;
-    margin-right: 20%;    
+    margin-left: 15%;
+    margin-right: 15%;    
 }
 .telephone {
     display: flex
@@ -44,8 +119,9 @@ a {
     padding: 5%;
     display: flex;
     flex-direction: row;
-    font-size: 22px;
+    font: 150 1.5em "Lato";
     text-align: center;
+    color: black;
 }
 
 #contact {
@@ -57,12 +133,19 @@ a {
     align-self: center;       
 }
 
-.images {
+.images {    
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 .list {
+    list-style-type: none;
     font-size: 22px;
+    text-align: center;
+}
+
+
+.text {
+    margin-right: auto;
 }
