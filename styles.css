@@ -1,12 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+
 body {
-    background-image: url("VpsTGN.jpg");
+    background-image: url("MB_background_1600x900_01.jpg");
+    background-color: rgb(48, 83, 122);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
 }
 h1 {
-    font: 55px Arial, sans-serif;
+    font: 55px Arial;
     color: white;
     text-align: center;
     font-size: 120px;
@@ -16,120 +25,58 @@ h1 {
     margin: auto;
 }
 .header {
-    font: 28px Arial, sans-serif;   
+    font-family: 'Alfa Slab One'; 
+    font-size: 30px;  
     text-align: center;    
 }
-.contact {
-    display: flex;
-    flex-direction: column;
-}
-
 #logo {
     width:150px;
     height: auto;    
     display:block;
     margin: auto;
+    padding: 1%;
 }
 
-#tel_button {
-    background-color: goldenrod;
-    border-radius: 25px;
-    border: 0;
-    outline: 0;    
-    letter-spacing: 0.75px;
+#c_1 {
     text-align: center;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
     margin: auto;
-    margin-top: 10%;
+    font-family: 'Montserrat'; 
+    font-size: 24px;
+    color: black;
+    width: 90%;
+
 }
 
-#mail_button {
-    background-color: goldenrod;
-    border-radius: 25px;
-    border: 0;
-    outline: 0;
-    font: 150 1.0em "Lato";
-    letter-spacing: 0.75px;
-    text-align: center;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
-    margin: auto;
-    margin-top: 10%;
-}
-
-#instalacje {
-    background-color: goldenrod;
-    border-radius: 25px;
-    border: 0;
-    outline: 0;
-    font: 150 1.5em "Lato";
-    letter-spacing: 0.75px;
-    text-align: center;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
-    margin: auto;
-    margin-top: 50%;
-}
-
-#koniec {
-    width:200px;
-    height: auto;    
-    display:block;
-    margin: auto;   
-}
-
-#oferta {
-    width:200px;
-    height: auto;
-    margin-right:0;
-    margin-left: auto;
-    margin-top: 75%;
-    display:block;   
-}
-
-#two_guys {
-
-    width:200px;
-    height: auto;
-    margin-right:0;
-    margin-left: auto;
-    margin-top: 50%;
-    display:block;       
-}
-
-#van {
-    width: 200px;
-    height: auto;
-    margin-right:0;
-    margin-left: auto;
-    margin-top: 50%;
-    display:block;
-}
-.container {
-    display: inline-flex;
-    margin-left: 15%;
-    margin-right: 15%;    
-}
-.telephone {
-    display: flex
-}
-p {
-    font-size: 22px;
-    text-align: center;
-}
-a {
-    padding: 5%;
+#c_2 {
+    
+    background-color: white;
     display: flex;
-    flex-direction: row;
-    font: 150 1.5em "Lato";
-    text-align: center;
+    justify-content: center;    
+}
+
+#tel {
+    padding: 10px;
+    font-size: 28px;
+}
+
+#m {
+    padding: 10px;
+    font-size: 28px;
+}
+
+a:link {
+    text-decoration: none;
     color: black;
 }
 
+a:hover {    
+    text-shadow: 2px 2px gray;
+  }
+
 #contact {
-    width:30px;
     height: auto;
     margin-right:auto;
     margin-left: 0;
-    display:block;
     align-self: center;       
 }
 
@@ -141,11 +88,18 @@ a {
 
 .list {
     list-style-type: none;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
 }
 
-
 .text {
-    margin-right: auto;
+    width: 816px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#gall {
+    display: inline;
+    flex-direction: row;
+    display: none;
 }
