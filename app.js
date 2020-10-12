@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  $("#instalacje").click(function(){
-    $("#txt").toggle();
-    $("#gall").toggle();
+  $("#gall_but").click(function(){
+    $("#txt").hide();
+    $("#gallery").show();
+
   })});
