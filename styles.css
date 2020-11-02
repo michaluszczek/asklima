@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -7,7 +6,8 @@
 
 
 body {
-    background-image: url("rect2751.png");
+    /*background-image: url("path1418.png");*/
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,6 +40,7 @@ h1 {
 }
 
 #c_1 {
+    
     text-align: center;
     margin: auto;
     font-family: 'Montserrat'; 
@@ -50,6 +51,7 @@ h1 {
 }
 
 #c_2 {    
+    
     background-color: white;
     display: flex;
     justify-content: center; 
@@ -58,11 +60,13 @@ h1 {
 
 #tel {
     padding: 10px;
+    padding-right: 2%;
     font-size: 28px;
 }
 
 #m {
     padding: 10px;
+    padding-left: 2%;
     font-size: 28px;
 }
 
@@ -95,7 +99,7 @@ a:hover {
 }
 
 .text {
-    width: 816px;
+    width: 900px;
     margin: auto;
 }
 
@@ -105,6 +109,7 @@ a:hover {
     border: none;
     font-size: 23px;
     font-family: 'Montserrat';
+    margin: auto;
 }
 
 #gall_but:hover {
